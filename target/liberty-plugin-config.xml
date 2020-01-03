@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liberty-plugin-config>
+    <installDirectory>C:\e-drive\IBM-Drive\Project\openliberty-app\target\liberty\wlp</installDirectory>
+    <serverDirectory>C:\e-drive\IBM-Drive\Project\openliberty-app\target\liberty\wlp\usr\servers\defaultServer</serverDirectory>
+    <userDirectory>C:\e-drive\IBM-Drive\Project\openliberty-app\target\liberty\wlp\usr</userDirectory>
+    <serverOutputDirectory>C:\e-drive\IBM-Drive\Project\openliberty-app\target\liberty\wlp\usr\servers\defaultServer</serverOutputDirectory>
+    <serverName>defaultServer</serverName>
+    <configFile>C:\e-drive\IBM-Drive\Project\openliberty-app\src\main\liberty\config\server.xml</configFile>
+    <bootstrapProperties>
+        <app.context.root>LibertyProject</app.context.root>
+        <default.http.port>9080</default.http.port>
+        <default.https.port>9443</default.https.port>
+    </bootstrapProperties>
+    <appsDirectory>apps</appsDirectory>
+    <looseApplication>false</looseApplication>
+    <stripVersion>true</stripVersion>
+    <installAppPackages>project</installAppPackages>
+    <applicationFilename>rest.war</applicationFilename>
+    <assemblyArtifact>
+        <groupId>io.openliberty</groupId>
+        <artifactId>openliberty-runtime</artifactId>
+        <version>RELEASE</version>
+        <type>zip</type>
+    </assemblyArtifact>
+    <assemblyArchive>C:\Users\RitabrataChakraborty\.m2\repository\io\openliberty\openliberty-runtime\19.0.0.12\openliberty-runtime-19.0.0.12.zip</assemblyArchive>
+    <assemblyInstallDirectory>C:\e-drive\IBM-Drive\Project\openliberty-app\target\liberty</assemblyInstallDirectory>
+    <refresh>false</refresh>
+    <installAppsConfigDropins>C:\e-drive\IBM-Drive\Project\openliberty-app\target\liberty\wlp\usr\servers\defaultServer\configDropins\defaults\install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <projectType>war</projectType>
+    <warSourceDirectory>C:\e-drive\IBM-Drive\Project\openliberty-app\src\main\webapp</warSourceDirectory>
+</liberty-plugin-config>
